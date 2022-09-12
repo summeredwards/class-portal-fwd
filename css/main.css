@@ -122,6 +122,8 @@ nav a:hover{
 
 #p1-thumbnail{
 	grid-area: p1-thumbnail;
+	background-image: url("../img/portal.jpeg");
+	background-size: 100%;
 	background-color: #cae2bc;
 }
 
