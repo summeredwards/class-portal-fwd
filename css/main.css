@@ -1,0 +1,344 @@
+ @import url("https://use.typekit.net/mma1xcw.css");
+
+html, body, h1{
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 40px 0;
+  font-family: ff-dax-pro-condensed, sans-serif;
+}
+
+nav ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav a:link{
+  text-decoration: none;
+  color: #fffff3;
+}
+
+nav a:visited{
+  text-decoration: none;
+  color: #fffff3;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: #d0a3bf;
+}
+
+#header-block{
+	display: flex;
+	background-color: black;
+	font-size: 130px;
+	font-family: lust, serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #fffff3;
+	height: 450px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 50px;
+}
+
+#filter{
+	display: flex;
+	background-color: black;
+	color: #fffff3;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+	font-family: guyot-headline, serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 40px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+	"p1-description p1-thumbnail"
+	"p2-thumbnail p2-description"
+	"p3-description p3-thumbnail"
+	"p4-thumnail p4-description";
+}
+
+.project-num{
+	text-align: center;
+	font-family: guyot-headline, serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 30px;
+}
+
+.project-name{
+	text-align: center;
+	font-family: ff-dax-pro-condensed, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 80px;
+	padding-left: 10%;
+	padding-right: 10%;
+	line-height: 72px;
+}
+
+.project-description{
+	padding-left: 12%;
+	padding-right: 10%;
+	line-height: 30px;
+	font-family: guyot-headline, serif;
+	font-weight: 300;
+}
+
+#p1-description{
+	grid-area: p1-description;
+	background-color: #1d2d44;
+	color: #cae2bc;
+	width: 100%;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#p1-description a, p{
+	color: #cae2bc;
+	text-align: center;
+}
+
+#p1-description a:hover, #p2-description a:hover, #p3-description a:hover{
+	color: white;
+}
+
+#p1-thumbnail{
+	grid-area: p1-thumbnail;
+	background-color: #cae2bc;
+}
+
+#p2-thumbnail{
+	grid-area: p2-thumbnail;
+	background-color: #d0a3bf;
+}
+
+#p2-description{
+	grid-area: p2-description;
+	background-color: #2a3d45;
+	color: #d0a3bf;
+	width: 100%;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#p2-description a, p{
+	color: #d0a3bf;
+	text-align: center;
+}
+
+#p3-description{
+	grid-area: p3-description;
+	background-color: #b4404d;
+	color: #fad684;
+	width: 100%;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#p3-description a, p{
+	color: #fad684;
+	text-align: center;
+}
+
+#p3-thumbnail{
+	grid-area: p3-thumbnail;
+	background-color: #fad684;
+}
+
+#p4-thumbnail{
+	grid-area: p4-thumbnail;
+}
+
+#p4-description{
+	grid-area: p4-description;
+}
+
+
+/* ============================================================================= */
+/* MEDIA QUIERIES */
+/* ============================================================================= */
+
+
+@media screen and (max-width: 1215px){
+  #header-block{
+    font-size: 115px;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  #header-block{
+    font-size: 105px;
+    height: 400px;
+  }
+
+  .project-name{
+  	font-size: 72px;
+  	line-height: 70px;
+  }
+
+  .project-num{
+  	font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 980px){
+  #header-block{
+    font-size: 95px;
+  }
+
+  .project-name{
+  	font-size: 55px;
+  	line-height: 58px;
+  }
+
+  .project-num{
+  	font-size: 24px;
+  }
+
+  .project-description{
+  	font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 880px){
+  #header-block{
+    font-size: 85px;
+    height: 340px;
+  }
+
+  .project-description{
+  	line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 780px){
+  #header-block{
+    font-size: 75px;
+  }
+
+  .project-name{
+  	font-size: 48px;
+  	line-height: 48px;
+  }
+
+  .project-num{
+  	font-size: 22px;
+  }
+
+  .project-description{
+  	font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 680px){
+  #header-block{
+    font-size: 65px;
+  }
+
+  .project-name{
+  	font-size: 38px;
+  	line-height: 38px;
+  }
+
+  .project-num{
+  	font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #header-block{
+    font-size: 58px;
+    height: 300px;
+    padding-top: 28px;
+  }
+
+  nav{
+  	margin: 32px 0;
+  }
+
+  .grid-container{
+	grid-template-columns: 1fr;
+	grid-template-areas: 
+	"p1-thumbnail"
+	"p1-description"
+	"p2-thumbnail" 
+	"p2-description"
+	"p3-thumbnail" 
+	"p3-description"
+	"p4-thumnail" 
+	"p4-description";
+	}
+
+	#p1-thumbnail, #p2-thumbnail, #p3-thumbnail{
+		height: 300px;
+		width: 100% !important;
+	}
+
+	#p1-description, #p2-description, #p3-description{
+		padding-top: 15%;
+		padding-bottom: 15%;
+	}
+}
+
+@media screen and (max-width: 535px){
+  #header-block{
+    font-size: 50px;
+    height: 255px;
+    padding-top: 35px;
+  }
+
+  nav{
+  	margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 480px){
+  #header-block{
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  #header-block{
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 368px){
+  #header-block{
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 325px){
+  #header-block{
+    font-size: 30px;
+    height: 200px;
+    padding-top: 38px;
+  }
+}
+
+
+
+
+
+
+
