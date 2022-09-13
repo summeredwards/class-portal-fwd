@@ -1,4 +1,4 @@
- @import url("https://use.typekit.net/mma1xcw.css");
+@import url("https://use.typekit.net/mma1xcw.css");
 
 html, body, h1{
 	padding: 0;
@@ -122,14 +122,13 @@ nav a:hover{
 
 #p1-thumbnail{
 	grid-area: p1-thumbnail;
-	background-image: url("../img/portal.jpeg");
+	background-image: url("../img/candlelight.png");
 	background-size: 100%;
 	background-color: #cae2bc;
 }
 
 #p2-thumbnail{
 	grid-area: p2-thumbnail;
-	background-image: url("../img/candlelight.png");
 	background-size: 100%;
 	background-color: #d0a3bf;
 }
