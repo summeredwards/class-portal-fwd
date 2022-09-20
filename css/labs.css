@@ -123,14 +123,17 @@ nav a:hover{
 #p1-thumbnail{
 	grid-area: p1-thumbnail;
 	background-image: url("../img/candlelight.png");
-	background-size: 100%;
 	background-color: #cae2bc;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #p2-thumbnail{
 	grid-area: p2-thumbnail;
-	background-size: 100%;
 	background-color: #d0a3bf;
+	background-image: url("../img/game-night.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #p2-description{

@@ -123,14 +123,16 @@ nav a:hover{
 #p1-thumbnail{
 	grid-area: p1-thumbnail;
 	background-image: url("../img/portal.jpeg");
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-color: #cae2bc;
 }
 
 #p2-thumbnail{
 	grid-area: p2-thumbnail;
 	background-image: url("../img/candlelight.png");
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-color: #d0a3bf;
 }
 
@@ -165,6 +167,9 @@ nav a:hover{
 #p3-thumbnail{
 	grid-area: p3-thumbnail;
 	background-color: #fad684;
+	background-image: url("../img/game-night.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #p4-thumbnail{
